@@ -37,6 +37,8 @@ for i, word in enumerate(words):
 
     # Escribe la palabra
     for char in word:
+        if char in ['.', ',', '!', '?', 'ñ', 'á', 'é', 'í', 'ó', 'ú', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']:
+            time.sleep(speed*2.5)
         keyboard.press(char)
         keyboard.release(char)
         time.sleep(speed)
