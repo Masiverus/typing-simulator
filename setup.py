@@ -7,7 +7,7 @@ from pynput.keyboard import Key, Controller
 keyboard = Controller()
 
 # Crea el texto ASCII con pyfiglet
-ascii_text = pyfiglet.figlet_format("Typing simulator V1")
+ascii_text = pyfiglet.figlet_format("Typing simulator")
 
 # Da color al texto ASCII con termcolor
 colored_ascii = termcolor.colored(ascii_text, 'red')
