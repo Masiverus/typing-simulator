@@ -6,8 +6,6 @@ from pynput.keyboard import Key, Controller
 
 keyboard = Controller()
 
-clear
-
 # Crea el texto ASCII con pyfiglet
 ascii_text = pyfiglet.figlet_format("Typing simulator")
 
